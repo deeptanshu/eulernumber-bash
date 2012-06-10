@@ -1,3 +1,10 @@
+====Usage====
+Place in preferred directory and export directory to path, eg.
+export PATH=$PATH:/path/to/file/
+then make executable as
+chmod +x /path/to/file/
+Alternatively, just make executable and use ./eulernumber from the directory
+
 ====Sample Output====
 
 [bin]$ eulernumber 500 # returns

@@ -23,10 +23,10 @@ Test
 Comparing against Unix's arbitrary precision library.
 
 
-```$ diff -s <(echo 'scale=500;e(1)' | bc -l | tr -d [:space:] | tr -d '\\') <(eulernumber 500 | tr -d [:space:])
-
-Files /dev/fd/63 and /dev/fd/62 are identical```
-
+```bash
+$ diff -s <(echo 'scale=500;e(1)' | bc -l | tr -d [:space:] | tr -d '\\') <(eulernumber 500 | tr -d [:space:])
+Files /dev/fd/63 and /dev/fd/62 are identical
+```
 
 Misc
 ----

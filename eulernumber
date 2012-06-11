@@ -13,12 +13,7 @@ if [ $BASH_VERSINFO -lt 3 ]; then
 fi
 
 if [ $# -gt 0 ]; then
-    if [[ $1 =~ [A-Za-z] ]]; then
-       echo "Please enter an integer. $BASH_REMATCH is not an integer." >&2
-       exit 1
-    else
-        N=$1
-    fi
+    N=$1
 else
     echo -n 'Enter the number of digits: '
     read N
